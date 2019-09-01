@@ -102,10 +102,6 @@
 	font-size: 40px;
 	color: rgb(34, 58, 104);
 }
-
-.qashel a:hover{
-	color: rgb(194, 14, 14);
-}
 .portnkar{
 	margin-top: 80px;
 }
@@ -117,7 +113,7 @@
 }
 
 .skills{
-	margin-top: 150px;
+	margin: 150px 0px 70px 0px;
 	border-bottom: 2px solid black;
 }
 .skills h1{
@@ -147,15 +143,58 @@
 .container{
 	padding-top: 160px;
 }
+.container div a{
+	margin-left: 10px;
+}
 .container a i{
 	padding: 10px 0px 10px 5px;
 	position: relative;
 	color: rgb(71, 88, 241);
 	font-size: 90px;
 }
-
+.container .fa-instagram:hover{
+	background-color: rgb(228, 39, 6);
+}
 .container span{
 	font-size: 50px;
 	padding-left: 20px;
 	padding-bottom: 5px;
+}
+.tokos{
+	margin-top: 20px;
+}
+
+.tokos h1{
+    padding-left: 10px;
+}
+.drsi{
+	width: 90%;
+	height: 20px;
+	margin: 10px 0px 10px 5px;
+	background-color: rgb(194, 194, 194)
+}
+
+.nersi{
+	width: 65%;
+	height: 20px;
+	background-color: rgb(11, 11, 134);
+}
+.tokos1{
+	margin-top: 70px;
+}
+
+.tokos1 h1{
+    padding-left: 10px;
+}
+.drsi1{
+	width: 90%;
+	height: 20px;
+	margin: 10px 0px 10px 5px;
+	background-color: rgb(194, 194, 194)
+}
+
+.nersi1{
+	width: 5%;
+	height: 20px;
+	background-color: rgb(11, 11, 134);
 }
