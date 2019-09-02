@@ -31,7 +31,7 @@ body{
 
 .ramka h1{
 	padding-top: 110px;
-	font-size: 78px;
+	font-size: 27px;
 }
 .ramka p{
 	padding-top: 50px;
@@ -39,8 +39,8 @@ body{
 }
 .nkar{
 
-	width: 500px;
-	height: 500px;
+	width: 380px;
+	height: 370px;
 	border-radius: 50%;
 }
 
@@ -54,22 +54,35 @@ body{
 
 .nav li{
 	list-style-type: none;
-	padding: 33px 5px;
+	padding: 28px 5px;
 	margin-bottom: 5px;
-	background-color: grey;
+	background-color: rgb(128, 128, 128);
 }
 
 .nav a{
 	text-decoration: none;
 	color: #fff;
 	cursor: pointer;
-	font-size: 40px;
+	font-size: 22px;
+}
+
+@media (min-width: 620px){
+	.nav ul{
+		background: rgb(128, 128, 128);
+		text-align: center;
+		padding: 5px 5px;
+	}
+	.nav li{
+		padding: 0px 10px 0px 10px;
+		display: inline;
+	}
+
 }
 
 .nav h2{
 	padding-top: 30px;
 	padding-bottom: 20px;
-	font-size: 85px;
+	font-size: 36px;
 	color: rgb(14, 90, 126);
 	text-align: center;
 	border-bottom: 1px solid black;
@@ -77,16 +90,16 @@ body{
 .nav h3{
 	padding-top: 30px;
 	padding-bottom: 10px;
-	font-size: 31px;
+	font-size: 25px;
 	text-align: center;
 }
 .nav p{
-    padding: 10px 10px 10px 80px;
+    padding: 10px 10px 10px 50px;
 	font-size: 21px;	
 }
 .lebenslauf h3{
 	 text-align: left;
-	 padding: 10px 10px 10px 80px;
+	 padding: 10px 10px 10px 50px;
 }
 
 .qashel{
@@ -96,14 +109,14 @@ body{
 
 .qashel h1{
 	text-align: center;
-	font-size: 72px;
+	font-size: 36px;
 	margin-top: 50px;
 	color: rgb(14, 90, 126);
 }
 
 .qashel a{
 	text-decoration: none;
-	font-size: 40px;
+	font-size: 20px;
 	color: rgb(34, 58, 104);
 }
 .portnkar{
@@ -122,7 +135,7 @@ body{
 }
 .skills h1{
 	padding-top: 30px;
-	font-size: 72px;
+	font-size: 36px;
 	text-align: center;
 	color: rgb(34, 58, 104);
 }
@@ -135,7 +148,7 @@ body{
 .MeinKontaktdaten h1{
 	padding-top: 30px;
    text-align: center;
-   font-size: 72px;
+   font-size: 36px;
    color: rgb(34, 58, 104);
 }
 
@@ -154,13 +167,13 @@ body{
 	padding: 10px 0px 10px 5px;
 	position: relative;
 	color: rgb(71, 88, 241);
-	font-size: 90px;
+	font-size: 37px;
 }
 .container .fa-instagram:hover{
 	background-color: rgb(228, 39, 6);
 }
 .container span{
-	font-size: 50px;
+	font-size: 21px;
 	padding-left: 20px;
 	padding-bottom: 5px;
 }
