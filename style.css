@@ -3,8 +3,12 @@
 	padding: 0px;
 	box-sizing: border-box;
 	font-family: 'PT Sans', sans-serif;
+	
 }
 
+body{
+	background-color: rgba(15, 15, 15, 0.055);
+}
 
 .header {
 	display: grid;
