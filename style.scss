@@ -1,0 +1,213 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  body {
+    background-color: rgba(15, 15, 15, 0.055);
+  }
+  
+  .header {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    padding-top: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .ramka {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    border-radius: 50%;
+    margin-bottom: 150px;
+    h1 {
+      padding-top: 110px;
+      font-size: 27px;
+    }
+    p {
+      padding-top: 50px;
+      font-size: 1.31rem;
+    }
+  }
+  
+  .nkar {
+    width: 23.75rem;
+    height: 23.125rem;
+    border-radius: 50%;
+  }
+  
+  .nav {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    margin: 50px 5px;
+    li {
+      list-style-type: none;
+      padding: 28px 5px;
+      margin-bottom: 5px;
+      background-color: rgb(128, 128, 128);
+
+    }
+      
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #fff;
+      cursor: pointer;
+      font-size: 1.37rem;
+    }
+    
+    h2 {
+      padding-top: 30px;
+      padding-bottom: 20px;
+      font-size: 2.25rem;
+      color: rgb(14, 90, 126);
+      text-align: center;
+      border-bottom: 1px solid black;
+    }
+    h3 {
+      padding-top: 30px;
+      padding-bottom: 10px;
+      font-size: 1.56rem;
+      text-align: center;
+    }
+    p {
+      padding: 10px 10px 10px 50px;
+      font-size: 1.31rem;
+    }
+  }
+  
+  @media (min-width: 620px) {
+    .nav {
+      ul {
+        background: rgb(128, 128, 128);
+        text-align: center;
+        padding: 5px 5px;
+      }
+      li {
+        padding: 0px 10px 0px 10px;
+        display: inline;
+        &:hover{
+            background-color: red;
+        }
+      }
+    }
+  }
+  
+  .lebenslauf h3 {
+    text-align: left;
+    padding: 10px 10px 10px 50px;
+  }
+  
+  .qashel {
+    padding: 0px 0px 10px 80px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    h1 {
+      text-align: center;
+      font-size: 2.25rem;
+      margin-top: 50px;
+      color: rgb(14, 90, 126);
+    }
+    a {
+      text-decoration: none;
+      font-size: 1.25rem;
+      color: rgb(34, 58, 104);
+    }
+  }
+  
+  .portnkar {
+    margin-top: 80px;
+    .nkar2 {
+      width: 100%;
+    }
+  }
+  
+  .skills {
+    margin: 150px 0px 70px 0px;
+    border-bottom: 2px solid black;
+    h1 {
+      padding-top: 30px;
+      font-size: 2.25rem;
+      text-align: center;
+      color: rgb(34, 58, 104);
+    }
+  }
+  
+  .MeinKontaktdaten {
+    padding-top: 80px;
+    border-bottom: 2px solid black;
+    h1 {
+      padding-top: 30px;
+      text-align: center;
+      font-size:  2.25rem;
+      color: rgb(34, 58, 104);
+    }
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 160px;
+    div a {
+      margin-left: 10px;
+    }
+    a i {
+      padding: 10px 0px 10px 5px;
+      position: relative;
+      color: rgb(71, 88, 241);
+      font-size: 2.25rem;
+    }
+    .fa-instagram:hover {
+      background-color: rgb(228, 39, 6);
+    }
+    span {
+      font-size: 1.31rem;
+      padding-left: 20px;
+      padding-bottom: 5px;
+    }
+  }
+  
+  .tokos {
+    margin-top: 20px;
+    h1 {
+      padding-left: 10px;
+    }
+  }
+  
+  .drsi {
+    width: 90%;
+    height: 20px;
+    margin: 10px 0px 10px 5px;
+    background-color: rgb(194, 194, 194);
+  }
+  
+  .nersi {
+    width: 65%;
+    height: 20px;
+    background-color: rgb(11, 11, 134);
+  }
+  
+  .tokos1 {
+    margin-top: 70px;
+    h1 {
+      padding-left: 10px;
+    }
+  }
+  
+  .drsi1 {
+    width: 90%;
+    height: 20px;
+    margin: 10px 0px 10px 5px;
+    background-color: rgb(194, 194, 194);
+  }
+  
+  .nersi1 {
+    width: 5%;
+    height: 20px;
+    background-color: rgb(11, 11, 134);
+  }
